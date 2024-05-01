@@ -1,0 +1,17 @@
+
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:mydb;NON_KEYWORDS=user,value
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    password:
+#    generate-unique-name: false
+#    name: store
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    generate-ddl: true
+#    show-sql: false
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.H2Dialect
